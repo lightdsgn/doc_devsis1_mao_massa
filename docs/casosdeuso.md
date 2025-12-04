@@ -2,13 +2,13 @@
 
 Abaixo está o diagrama que representa as interações entre os atores (Cliente, Prestador e Administrador) e as principais funcionalidades do sistema.
 
-![Diagrama de Caso de Uso](/public/img/USOCLIENTE.png)
+![Diagrama de Caso de Uso](/USOCLIENTE.png)
 _Imagem: Casos de Uso parte Cliente_
 
-![Diagrama de Caso de Uso](/public/img/USOPRESTADOR.png)
+![Diagrama de Caso de Uso](/USOPRESTADOR.png)
 _Imagem: Casos de Uso parte Prestador_
 
-![Diagrama de Caso de Uso](/public/img/USOADM.png)
+![Diagrama de Caso de Uso](/USOADM.png)
 _Imagem: Casos de Uso parte Administrador_
 
 ## **Link no diagrams.net:**https://app.diagrams.net/?src=about#G1BdPXGro4AepwQkwFw5gfgjcY_7AqyQuk#%7B"pageId"%3A"C5RBs43oDa-KdzZeNtuy"%7D
