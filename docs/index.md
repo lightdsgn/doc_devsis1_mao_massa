@@ -5,7 +5,7 @@ hero:
   name: "Mão na Massa"
   text: "Documentação Oficial do Sistema"
   tagline: "Plataforma digital para solicitação de serviços, orçamentos inteligentes e gestão profissional."
- ![logo](/logomaonamassa.png)  
+
   actions:
     - theme: brand
       text: "Iniciar Documentação"
