@@ -35,6 +35,10 @@ features:
     details: "Monitoramento completo de usuários, serviços, orçamentos e regras gerais."
 ---
 
+<div style="text-align: center; margin-top: 1rem;">
+  <img src="./logomaonamassa.png" alt="Logo Mão na Massa" style="max-width: 180px; margin: auto;" />
+</div>
+
 <div style="text-align: center; margin-top: 2rem;">
 
 ### Equipe de Desenvolvimento  
