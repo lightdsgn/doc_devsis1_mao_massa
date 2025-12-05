@@ -26,40 +26,42 @@ body {
   font-family: 'Sora', sans-serif !important;
 }
 
-/* ==========================================================
-   HERO – CENTRALIZAÇÃO + TÍTULO LARANJA
-   ========================================================== */
-.VPHomeHero {
-  background: linear-gradient(180deg, #000 40%, #0a0a0a 100%) !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+/* ---------------------------------------- */
+/* HERO CENTRALIZADO CORRETAMENTE           */
+/* ---------------------------------------- */
+
+.VPHomeHero .container {
   text-align: center !important;
-  flex-direction: column !important;
-  padding-top: 3rem !important;
 }
 
 .VPHomeHero .name,
-.VPHomeHero h1 {
-  color: var(--color-accent) !important;
-  font-size: 3rem !important;
-  font-weight: 700 !important;
-}
-
 .VPHomeHero .text,
 .VPHomeHero .tagline {
-  color: #ffffff !important;
-  font-size: 1.3rem !important;
-  margin-top: .5rem;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .VPHomeHero .actions {
   justify-content: center !important;
 }
 
-/* ==========================================================
-   SIDEBAR – TODOS OS ESTILOS + HOVER FUNCIONANDO
-   ========================================================== */
+/* Título laranja */
+.VPHomeHero .name {
+  color: #FA4101 !important;
+  font-weight: 700 !important;
+}
+
+/* Subtítulo branco */
+.VPHomeHero .text,
+.VPHomeHero .tagline {
+  color: #ffffff !important;
+}
+
+/* ---------------------------------------- */
+/* SIDEBAR                                  */
+/* ---------------------------------------- */
+
 .VPSidebar,
 .VPSidebar * {
   background: #000 !important;
@@ -77,51 +79,41 @@ body {
   border-right: 1px solid #111 !important;
 }
 
-/* Links gerais da sidebar */
-.VPSidebar .VPSidebarItem a,
+.VPSidebar a,
 .VPSidebar .VPLink,
-.VPSidebar .link {
+.VPSidebar .VPSidebarItem a {
   color: #ffffff !important;
   background: transparent !important;
-  transition: color .12s ease, background .12s ease !important;
+  transition: color .12s ease;
 }
 
-/* Hover realmente funcionando */
-.VPSidebar .VPSidebarItem a:hover,
-.VPSidebar .VPLink:hover,
-.VPSidebar .link:hover,
-.VPSidebar .VPSidebarItem .text:hover {
+/* HOVER LIMPO */
+.VPSidebar .VPSidebarItem a:hover {
   color: #FA4101 !important;
-  background: rgba(250, 65, 1, 0.12) !important;
+  background: transparent !important;
 }
 
-/* Texto interno */
-.VPSidebar .VPSidebarItem .text {
-  color: #ffffff !important;
-}
-
-/* Active */
-.VPSidebar .VPSidebarItem.is-active > a,
-.VPSidebar .VPSidebarItem.active > a,
-.VPSidebar a.router-link-active,
-.VPSidebar a.router-link-exact-active {
+/* ACTIVE LIMPO */
+.VPSidebar .VPSidebarItem.is-active > a {
   color: #FA4101 !important;
-  background: rgba(250, 65, 1, 0.18) !important;
+  background: transparent !important;
   border-left: 3px solid #FA4101 !important;
   padding-left: calc(1rem - 3px) !important;
 }
 
-/* ==========================================================
-   NAVBAR
-   ========================================================== */
+/* ---------------------------------------- */
+/* NAVBAR                                    */
+/* ---------------------------------------- */
+
 .VPNav {
   background: #000 !important;
-  border-bottom: 1px solid #111;
+  border-bottom: 1px solid #111 !important;
 }
 
-/* ==========================================================
-   LINKS GERAIS
-   ========================================================== */
+/* ---------------------------------------- */
+/* LINKS & BUTTONS                           */
+/* ---------------------------------------- */
+
 a {
   color: var(--color-accent);
 }
@@ -130,9 +122,6 @@ a:hover {
   color: var(--color-accent-light);
 }
 
-/* ==========================================================
-   BOTÕES
-   ========================================================== */
 button,
 .vp-button,
 .VPButton {
@@ -148,9 +137,10 @@ button:hover,
   background-color: var(--color-accent-light) !important;
 }
 
-/* ==========================================================
-   TÍTULOS E TEXTOS
-   ========================================================== */
+/* ---------------------------------------- */
+/* TITLES                                    */
+/* ---------------------------------------- */
+
 h1, h2, h3, h4 {
   color: var(--color-accent);
   font-weight: 700;
@@ -161,13 +151,9 @@ strong {
   font-weight: 700;
 }
 
-/* ==========================================================
-   FEATURES
-   ========================================================== */
-.VPHomeFeatures .items {
-  background: transparent !important;
-  box-shadow: none !important;
-}
+/* ---------------------------------------- */
+/* FEATURES                                  */
+/* ---------------------------------------- */
 
 .VPFeature {
   background: #000 !important;
@@ -215,12 +201,12 @@ strong {
   height: 24px !important;
 }
 
-/* Máscara do menu mobile */
+/* ---------------------------------------- */
+
 .VPSidebar-mask {
   background: rgba(0, 0, 0, 0.7) !important;
 }
 
-/* Blockquote */
 .vp-doc blockquote {
   border-left-color: var(--color-accent) !important;
 }
