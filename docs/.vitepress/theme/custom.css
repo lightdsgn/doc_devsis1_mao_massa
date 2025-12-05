@@ -5,7 +5,7 @@
   --color-text:#ffffff;
   --color-accent:#FA4101;
   --color-accent-light:#ff6a33;
-  --color-accent-strong:#d83b00;
+  --color-accent-strong:#FA4101;
 
   --VP-c-bg:var(--color-bg);
   --VP-c-text-1:var(--color-text);
@@ -69,7 +69,7 @@ body{
   color:#ffffff!important;
   background:transparent!important;
   border-radius:10px;
-  padding:6px 12px;
+  padding:5px 10px;
   display:block;
   transition:background-color .12s ease,color .12s ease;
 }
@@ -180,3 +180,14 @@ strong{
 .vp-doc blockquote{
   border-left-color:var(--color-accent)!important;
 }
+
+.VPNav .VPNavBar .content .nav,
+.VPNav .VPNavBar .content .nav * {
+  font-size: 13px !important;
+  white-space: nowrap !important;
+}
+
+.VPNav .VPNavBar .content .nav a {
+  padding: 4px 10px !important;
+}
+
