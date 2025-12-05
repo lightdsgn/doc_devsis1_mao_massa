@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap');
+
+:root {
+  --color-bg: #000000;
+  --color-text: #ffffff;
+  --color-accent: #FA4101;
+  --color-accent-light: #ff6a33;
+
+  --vp-c-bg: var(--color-bg);
+  --vp-c-text-1: var(--color-text);
+  --vp-c-text-2: #e0e0e0;
+
+  --vp-c-brand-1: var(--color-accent);
+  --vp-c-brand-2: var(--color-accent-light);
+
+  --vp-button-brand-bg: var(--color-accent);
+  --vp-button-brand-hover-bg: var(--color-accent-light);
+  --vp-button-brand-text: #fff;
+
+  font-family: 'Sora', sans-serif;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Sora', sans-serif !important;
+}
+
+.VPSidebar,
+.VPSidebar * {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.VPSidebar .group,
+.VPSidebar .items,
+.VPSidebar .content {
+  background: #000 !important;
+  border: none !important;
+}
+
+.VPSidebar {
+  border-right: 1px solid #111 !important;
+}
+
+.VPSidebar a,
+.VPSidebar .VPLink,
+.VPSidebar .VPSidebarItem a {
+  color: #ffffff !important;
+  background: transparent !important;
+  transition: color .12s ease, background .12s ease;
+}
+
+.VPSidebar a:hover,
+.VPSidebar .VPLink:hover,
+.VPSidebar .VPSidebarItem a:hover {
+  color: #FA4101 !important;
+  background: rgba(250, 65, 1, 0.12) !important;
+}
+
+.VPSidebar a.active,
+.VPSidebar a.router-link-active,
+.VPSidebar a.router-link-exact-active,
+.VPSidebar .VPSidebarItem.is-active > a,
+.VPSidebar .VPSidebarItem.active > a,
+.VPSidebar li.active > a {
+  color: #FA4101 !important;
+  font-weight: 700 !important;
+  background: rgba(250, 65, 1, 0.18) !important;
+  border-left: 3px solid #FA4101 !important;
+  padding-left: calc(1rem - 3px) !important;
+}
+
+body .VPSidebar a:hover,
+body .VPSidebar a.active {
+  color: #FA4101 !important;
+}
+
+.VPNav {
+  background: #000 !important;
+  border-bottom: 1px solid #111;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-accent-light);
+}
+
+button,
+.vp-button,
+.VPButton {
+  background-color: var(--color-accent) !important;
+  color: white !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+}
+
+button:hover,
+.vp-button:hover,
+.VPButton:hover {
+  background-color: var(--color-accent-light) !important;
+}
+
+h1, h2, h3, h4 {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+strong {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+.VPFeature .title {
+  color: var(--color-accent);
+}
+
+.VPFeature .details {
+  color: var(--color-text);
+}
+
+.VPHomeHero {
+  background: linear-gradient(180deg, #000 40%, #0a0a0a 100%) !important;
+}
+
+.VPHomeFeatures .items {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+
+  
+.VPFeature {
+  background: #000 !important;
+  border-radius: 14px !important;
+  padding: 1.6rem !important;
+  border: 2px solid #FA4101 !important;
+  color: #ffffff !important;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.VPFeature .title {
+  color: #FA4101 !important;
+  font-weight: 700 !important;
+}
+
+.VPFeature .details {
+  color: #ffffff !important;
+}
+
+.VPFeature:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 15px rgba(250, 65, 1, 0.25);
+}
+
+.VPFeature .icon,
+.VPFeature .icon-wrapper,
+.VPFeature .hero-icon {
+  background: #FA4101 !important;
+  color: #ffffff !important;
+  width: 48px !important;
+  height: 48px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 8px !important;
+  margin-bottom: 12px !important;
+  font-size: 20px !important;
+  box-sizing: border-box !important;
+}
+
+.VPFeature .icon svg,
+.VPFeature .icon-wrapper svg {
+  fill: #ffffff !important;
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.VPSidebar-mask {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.vp-doc blockquote {
+  border-left-color: var(--color-accent) !important;
+}
