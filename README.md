@@ -85,7 +85,7 @@ Fornecer uma solução robusta que simule um ambiente profissional de prestaçã
 - Erik Martins
 - Mateus Francisco
 
-**Instituto Federal de Santa Catarina - Câmpus Chapecó - Curso Técnico em Informática integrado ao Ensino Médio – 2025.2**
+
 ---
 
 ## 👨‍🏫 Professor/Orientador
@@ -93,4 +93,6 @@ Fornecer uma solução robusta que simule um ambiente profissional de prestaçã
 **Jackson Meires Canuto**
 Desenvolvimento de Sistemas I – Módulo 07 – 2025.2
 
+---
+**Instituto Federal de Santa Catarina - Câmpus Chapecó - Curso Técnico em Informática integrado ao Ensino Médio – 2025.2**
 ---
