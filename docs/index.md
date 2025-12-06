@@ -35,8 +35,8 @@ features:
     details: "Monitoramento completo de usuários, serviços, orçamentos e regras gerais."
 ---
 
-<div style="text-align: center; margin-top: 1rem;">
-  <img src="./logomaonamassa.png" alt="Logo Mão na Massa" style="max-width: 180px;margin-top:50px; margin: auto;" />
+<div style="text-align: center; margin-top: 50px;">
+  <img src="./logomaonamassa.png" alt="Logo Mão na Massa" style="max-width: 180px;margin: auto;" />
 </div>
 
 <div style="text-align: center; margin-top: 2rem;">
@@ -65,11 +65,11 @@ _Projeto acadêmico desenvolvido para fins educacionais, com aplicação de prá
   border-radius: 12px !important;
   padding: 22px !important;
   border: 1px solid #222 !important;
-  transition: transform .25s ease, background .25s ease, border .25s ease;
+  transition: transform .32s cubic-bezier(.25,.1,.25,1), background .32s ease, border .32s ease;
 }
 
 .VPFeature:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px) scale(1.03);
   background: #1c1c1c !important;
   border-color: #FA4101 !important;
 }
