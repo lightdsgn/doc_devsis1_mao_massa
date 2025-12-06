@@ -26,8 +26,6 @@ body {
   font-family: 'Sora', sans-serif !important;
 }
 
-
-
 .VPHomeHero .container {
   text-align: center !important;
 }
@@ -44,12 +42,10 @@ body {
   justify-content: center !important;
 }
 
-
 .VPHomeHero .name {
   color: #FA4101 !important;
   font-weight: 700 !important;
 }
-
 
 .VPHomeHero .text,
 .VPHomeHero .tagline {
@@ -80,20 +76,19 @@ body {
 .VPSidebar .VPSidebarItem a {
   color: #ffffff !important;
   background: transparent !important;
-  transition: color .12s ease;
+  transition: color .22s ease, transform .22s ease;
 }
 
-
-.VPSidebar .VPSidebarItem a:hover {
+.VPSidebar a:hover,
+.VPSidebar .VPSidebarItem a:hover,
+.VPSidebar .VPLink:hover {
   color: #FA4101 !important;
-  background: transparent !important;
+  transform: translateX(3px);
 }
 
 .VPSidebar .VPSidebarItem.is-active > a {
   color: #FA4101 !important;
-  background: transparent !important;
-  border-left: 3px solid #FA4101 !important;
-  padding-left: calc(1rem - 3px) !important;
+  transform: none !important;
 }
 
 
@@ -102,8 +97,6 @@ body {
   background: #000 !important;
   border-bottom: 1px solid #111 !important;
 }
-
-
 
 a {
   color: var(--color-accent);
@@ -128,7 +121,6 @@ button:hover,
   background-color: var(--color-accent-light) !important;
 }
 
-
 h1, h2, h3, h4 {
   color: var(--color-accent);
   font-weight: 700;
@@ -139,9 +131,7 @@ strong {
   font-weight: 700;
 }
 
-/* ---------------------------------------- */
-/* FEATURES                                  */
-/* ---------------------------------------- */
+
 
 .VPFeature {
   background: #000 !important;
@@ -149,7 +139,7 @@ strong {
   padding: 1.6rem !important;
   border: 2px solid #FA4101 !important;
   color: #ffffff !important;
-  transition: transform .2s ease, box-shadow .2s ease;
+  transition: transform .35s cubic-bezier(.22,1,.36,1), box-shadow .35s cubic-bezier(.22,1,.36,1);
 }
 
 .VPFeature .title {
@@ -162,8 +152,8 @@ strong {
 }
 
 .VPFeature:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 0 15px rgba(250, 65, 1, 0.25);
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 0 20px rgba(250, 65, 1, 0.28);
 }
 
 .VPFeature .icon,
@@ -189,7 +179,7 @@ strong {
   height: 24px !important;
 }
 
-/* ---------------------------------------- */
+
 
 .VPSidebar-mask {
   background: rgba(0, 0, 0, 0.7) !important;
