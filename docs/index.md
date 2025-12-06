@@ -36,7 +36,7 @@ features:
 ---
 
 <div style="text-align: center; margin-top: 1rem;">
-  <img src="./logomaonamassa.png" alt="Logo Mão na Massa" style="max-width: 180px; margin: auto;" />
+  <img src="./logomaonamassa.png" alt="Logo Mão na Massa" style="max-width: 180px;margin-top:50px; margin: auto;" />
 </div>
 
 <div style="text-align: center; margin-top: 2rem;">
@@ -57,3 +57,44 @@ _Instituto Federal de Santa Catarina – Curso Técnico em Informática Integrad
 _Projeto acadêmico desenvolvido para fins educacionais, com aplicação de práticas modernas de engenharia de software, documentação técnica e arquitetura de sistemas._
 
 </div>
+
+<style>
+
+.VPFeature {
+  background: #141414 !important;
+  border-radius: 12px !important;
+  padding: 22px !important;
+  border: 1px solid #222 !important;
+  transition: transform .25s ease, background .25s ease, border .25s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-5px);
+  background: #1c1c1c !important;
+  border-color: #FA4101 !important;
+}
+
+.VPFeature .title {
+  color: #FA4101 !important;
+  font-weight: 700 !important;
+}
+
+.VPFeature .details {
+  color: #ffffff !important;
+}
+
+.VPFeature .icon,
+.VPFeature .icon-wrapper,
+.VPFeature .hero-icon {
+  background: #FA4101 !important;
+  color: #ffffff !important;
+  width: 48px !important;
+  height: 48px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 10px !important;
+  font-size: 20px !important;
+}
+
+</style>
