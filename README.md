@@ -21,7 +21,7 @@ Este repositório contém a documentação oficial do projeto, incluindo arquite
 ---
 
 ## 📘 Visão Geral
-O **Mão na Massa** é um sistema desenvolvido no IFSC com foco em facilitar a comunicação entre clientes e prestadores, oferecendo um ambiente completo para:
+O **Mão na Massa** é um projeto desenvolvido para implementações futuras no IFSC, onde o mesmo grupo no modulo 8 fará a implementação real do projeto, e o sistema trabalha com foco em facilitar a comunicação entre clientes e prestadores, oferecendo um ambiente completo para:
 
 - Solicitar serviços com descrição, fotos e localização.
 - Criar orçamentos detalhados com mão de obra e materiais.
@@ -60,14 +60,16 @@ Fornecer uma solução robusta que simule um ambiente profissional de prestaçã
 ## 💻 Tecnologias Utilizadas
 - VitePress (Documentação)
 - HTML/CSS/JS
+- Typescript
+- FIGMA
 - Git e GitHub
 - Arquitetura modular de documentação
-- Padrões acadêmicos do IFSC
+- StackBlitz
+- Vercel (hospedagem)
 
 ---
 
 ## 📂 Estrutura da Documentação
-A documentação está organizada em:
-
+[A documentação está organizada em:](https://doc-devsis1-mao-massa.vercel.app)
 
 [Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/lightdsgn/doc_devsis1_mao_massa)
