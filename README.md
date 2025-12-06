@@ -73,3 +73,23 @@ Fornecer uma solução robusta que simule um ambiente profissional de prestaçã
 [A documentação está organizada em:](https://doc-devsis1-mao-massa.vercel.app)
 
 [Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/lightdsgn/doc_devsis1_mao_massa)
+
+
+---
+
+## 👥 Equipe de desenvolvimento
+
+- Lucas Eduardo Dacroce
+- Bruno do Prado
+- João Siqueira
+- Erik Martins
+- Mateus Francisco
+Instituto Federal de Santa Catarina - Câmpus Chapecó - Curso Técnico em Informática integrado ao Ensino Médio – 2025.2 
+---
+
+## 👨‍🏫 Professor/Orientador
+
+Jackson Meires Canuto
+Desenvolvimento de Sistemas I – Módulo 07 – 2025.2
+
+---
