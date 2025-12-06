@@ -139,7 +139,7 @@ strong {
   padding: 1.6rem !important;
   border: 2px solid #FA4101 !important;
   color: #ffffff !important;
-  transition: transform .35s cubic-bezier(.22,1,.36,1), box-shadow .35s cubic-bezier(.22,1,.36,1);
+  transition: transform .25s ease, box-shadow .25s ease;
 }
 
 .VPFeature .title {
@@ -152,8 +152,8 @@ strong {
 }
 
 .VPFeature:hover {
-  transform: translateY(-6px) scale(1.02);
-  box-shadow: 0 0 20px rgba(250, 65, 1, 0.28);
+  transform: translateY(-4px);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
 }
 
 .VPFeature .icon,
